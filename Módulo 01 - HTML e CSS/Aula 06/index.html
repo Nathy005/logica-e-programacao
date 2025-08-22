@@ -3,62 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Border</title>
-    
+    <title>Margin e Padding</title>
     <style>
 
-        main { 
-            margin: auto;
-            width: 60vw ;
-            box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.588);
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
         }
 
-        #box1 {
-            border-width: 1px;
-            border-color: rgb(140, 0, 255);
-            border-style: solid;
-            border-radius: 15px;
-            text-align: center;
-        }
+    main{
+        width:70vw;
+        margin:auto;
+        border: 1px solid rgba(0, 0, 0, 0.541);
+        border-radius: 15px;
+        box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.738);
+        padding: 20px 50px;
+ }
 
-        
-        #box2 {
-          border: 1px solid rgb(2, 194, 252);
-          height: 20px;
-          text-align: center;
-          border-radius: 15px;
-        }
+div{
+    margin:50px ;
+    margin-left: 100px;
+    border: 1px solid black;
+}
 
-        #box3 {
-          height:250px ;  
-          background-image:linear-gradient(to top, rgb(255, 0, 174), rgb(119, 0, 255), rgb(0, 30, 255)) ;
-          border-top: 1px solid rgb(1, 56, 255);
-          border-bottom: 1px dashed rgb(255, 2, 145);
-          border-right: 1px dotted blue;
-          border-left: 1px solid rgb(255, 0, 230) ;
-          text-align: center;
-         
-        }
-    
-    </style>
-
+</style>
 </head>
 <body>
-    
     <main>
         <div id="box1">
             Essa é a primeira caixa
         </div>
-        <p></p>
-
+  
         <div id="box2">
             Essa é a segunda caixa
         </div>
-        <p></p>
-
+       
         <div id="box3">
             Essa é a terceira caixa
         </div>
     </main>
+
+
 </body>
 </html>
