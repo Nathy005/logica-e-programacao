@@ -1,0 +1,11 @@
+@import url(cores.css);
+
+:root{
+    --cor-cabecalho-inicial: #670000;
+    --cor-cabecalho-final: #b10000;
+    --cor-fundo-body: #ffffff;
+    --cor-main: #920000;
+    --cor-letras-link: #fdfdfd;
+    --cor-botao-cabecalho:#dadadf46;
+    --cor-rodade: #800000;
+}
