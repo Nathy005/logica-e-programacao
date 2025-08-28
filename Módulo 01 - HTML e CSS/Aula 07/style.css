@@ -6,7 +6,7 @@
 }
 
 :root{
-    --cor-cabecalho-inicial: #640000;
+    --cor-cabecalho-inicial: #420000;
     --cor-cabecalho-final: #c80000;
     --cor-fundo-body: #ffffff;
     --cor-main: #9c1212;
@@ -54,7 +54,7 @@ display:inline-block;
 }
 
 nav a:hover{
-background-color: rgb(116, 0, 0);
+background-color: rgba(198, 197, 204, 0.641);
 transform: scale(1.05);
 }
 
