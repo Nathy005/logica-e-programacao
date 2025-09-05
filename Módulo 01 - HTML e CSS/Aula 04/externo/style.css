@@ -33,7 +33,7 @@ a {
 main > section > p {
     font-family: "Playwrite MX Guides", cursive;
     font-optical-sizing: auto;
-    font-weight: <weight>;
+    font-weight: weight;
     color:blanchedalmond;
     font-weight: lighter;
     font-style: italic;

@@ -1,0 +1,52 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+body {
+background-color: rgba(185, 177, 177, 0.417);
+}
+
+main{
+    background-color: white;
+    width: 60vw;
+    margin:50px auto;
+    padding:24px;
+    border-radius:15px;
+    box-shadow:rgba(0, 0, 0, 0.186) ;
+}
+
+h2{
+text-align: center;
+margin:10px;
+
+}
+
+label{
+    font-weight: bold;
+}
+
+input, select{
+width:100% ;
+padding: 5px;
+margin: 5px 0px 15px;
+border-radius: 5px;
+border:1px solid rgba(0, 0, 0, 0.185)
+}
+
+button{
+    background-color:#007fbb;
+    padding: 10px;
+    color: white;
+    border:none ;
+    border-radius:15px ;
+    width: 30%;
+    cursor:pointer ;
+}
+
+button[type="reset"]{
+    background-color: rgba(219, 37, 37, 0.729);
+}
