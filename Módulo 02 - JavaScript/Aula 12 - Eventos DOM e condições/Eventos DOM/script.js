@@ -1,11 +1,11 @@
 let caixa = document.getElementById("mouse")
 
 function entradaMouse() {
-    caixa.style.backgroundColor = "lightpink"
+    caixa.style.backgroundColor = "blue"
 }
 
 function saidaMouse(){
-    caixa.style.backgroundColor = "lightblue"
+    caixa.style.backgroundColor = "red"
 }
 
 function mudaHtml(){
