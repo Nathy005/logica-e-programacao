@@ -20,15 +20,15 @@ function calcularMedia(){
         resultado.style.color = "red"
 
     }  else if (media >= 7) {
-        resultado.innerHTML = "APROVADO <br> A sua média foi de " + media
+        resultado.innerHTML = "APROVADO <br> A sua média foi de " + media.toFixed
         resultado.style.color = "green"
 
     } else if (media >= 5) {
-        resultado.innerHTML = "RECUPERAÇÃO <br> A sua média foi de " + media
+        resultado.innerHTML = "RECUPERAÇÃO <br> A sua média foi de " + media.toFixed
         resultado.style.color = "orange"
 
     } else
-        resultado.innerHTML = "REPROVADO <br> A sua média foi de " + media
+        resultado.innerHTML = "REPROVADO <br> A sua média foi de " + media.toFixed
         resultado.style.color = "orange"
 
     
