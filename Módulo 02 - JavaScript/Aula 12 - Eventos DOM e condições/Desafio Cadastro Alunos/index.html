@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Desafio 3 - Cadastro de Alunos</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Cadastro de Alunos</h1>
+
+    <div class="formulario">
+      <input type="text" id="nome" placeholder="Nome do aluno">
+      <input type="number" id="nota" placeholder="Nota" step="0.1" min="0" max="10">
+      <button onclick="cadastrar()">Cadastrar</button>
+    </div>
+
+    <div class="botoes">
+      <button onclick="mostrarTodos()">Mostrar Todos</button>
+      <button onclick="mostrarAprovados()">Mostrar Apenas Aprovados</button>
+    </div>
+
+    <h2>Lista de Alunos</h2>
+    <ul id="listaAlunos"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
