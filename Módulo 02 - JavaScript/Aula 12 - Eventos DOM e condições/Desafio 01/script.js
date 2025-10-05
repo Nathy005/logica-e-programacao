@@ -1,16 +1,17 @@
+function calcularMedia() {
+  // pega os valores digitados
+  let nota1 = parseFloat(document.getElementById("nota1").value);
+  let nota2 = parseFloat(document.getElementById("nota2").value);
 
-function calcularMedia(){
-    let nota1 = parseFloat(document.getElementById("nota1").value);
-    let nota2 = parseFloat(document.getElementById("nota2").value);
+  // verifica se os campos foram preenchidos corretamente
+  if (isNaN(nota1) || isNaN(nota2)) {
+    document.getElementById("resultado").innerText = "Por favor, digite as duas notas.";
+    return;
+  }
 
-    if(isNaN(nota1)) (isNat(nota2))
+  // calcula a média
+  let media = (nota1 + nota2) / 2;
 
-    
-    document.getElementById("resultado").innerText = "resultado";
-    return
+  // exibe o resultado
+  document.getElementById("resultado").innerText = "A média é: " + media.toFixed(2);
 }
-
-let media = (nota1 + nota2)/2;
-
-
-document.getElementById("resultado").innerText = "a média é: " + media.toFixed(2);
